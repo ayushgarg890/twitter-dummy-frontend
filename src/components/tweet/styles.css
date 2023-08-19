@@ -1,0 +1,54 @@
+.tweet {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.tweet-input {
+    width: 98.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.follow-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.followed-button {
+    background-color: white;
+    color: #1da1f2;
+    border: 1px solid #1da1f2;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: transparent;
+    color: #1da1f2;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

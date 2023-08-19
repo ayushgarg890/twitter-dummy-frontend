@@ -30,7 +30,7 @@ const TweetForm = () => {
                     },
                 }
             );
-            navigate("/mytweet");
+            window.location.reload();
             setTweetText('');
         } catch (error) {
             console.error('Error creating tweet:', error);
